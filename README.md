@@ -58,7 +58,7 @@ module YourProjectName
 
 go 1.14
 
-localPackage/IndifierName => relative or absolute path to the package
+localPackage/IndifierName => ./subdir/module-folder-where-go-mod-exist
 
 require (
     localPackage/IndifierName v0.0.1

@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="502b827f-4986-4ad1-ad03-7eeca79f204f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/01. strategy-pattern-go.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/implementations/SpeakBehaviour.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internals/strategy-internal.go" beforeDir="false" afterPath="$PROJECT_DIR$/internals/strategy-internal.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
@@ -49,8 +50,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/internals/implementations" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\others-git\golang-go-design-patterns\design-patterns\03. behavioural-patterns\01. strategy-pattern-go\internals\implementations" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,11 +87,22 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="652" y="273" key="#Go_Modules" timestamp="1598467691040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="273" key="#Go_Modules/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598467691040" />
     <state x="606" y="284" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1598466710423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="606" y="284" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598466710423" />
+    <state x="671" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1598469533805">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="671" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598469533805" />
     <state x="278" y="0" key="SettingsEditor" timestamp="1598466730889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
