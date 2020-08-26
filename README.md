@@ -40,6 +40,33 @@ Important or commonly used patterns are marked with astrek(*).
   - *[Adapter](https://refactoring.guru/design-patterns/adapter) | [Adapter Udemy](https://www.udemy.com/course/design-patterns-go/learn/lecture/17133984#content)
   - [Flyweight](https://refactoring.guru/design-patterns/flyweight), ie. general maps
 
+### Takeaway: Summary of GO Modules, Vendors
+
+- Go Modules are the way to GO
+  - [vgo - Accessing local packages within a go module (go 1.11) - Stack Overflow](https://stackoverflow.com/questions/52026284/accessing-local-packages-within-a-go-module-go-1-11/55347424#55347424)
+- Don't use vendors (because it requires sync, everytime new-packages is added)
+  - Becareful with vendors and go-modules. Specially go vendors, replaces everything in vendor folder of the project on initial run.
+- Keep one gopath in the system.
+- Don't use multiple go modules init or go.mod file in one project.
+- [Should be avoided] To use any local package, use the referencing concept.
+
+**go.mod file example in the root project**:
+
+```go
+module YourProjectName
+
+go 1.14
+
+localPackage/IndifierName => relative or absolute path to the package
+
+require (
+    localPackage/IndifierName v0.0.1
+)
+
+```
+
+- Use the package reference as `localPackage/IndifierName` -> `localPackage.call()`
+
 ## Contributors
 
 - [Md. Alim Ul Karim](https://github.com/aukgit) | [Md. Alim Ul Karim Linkedin](https://bd.linkedin.com/in/alimkarim)
