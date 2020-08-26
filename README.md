@@ -40,9 +40,10 @@ Important or commonly used patterns are marked with astrek(*).
   - *[Adapter](https://refactoring.guru/design-patterns/adapter) | [Adapter Udemy](https://www.udemy.com/course/design-patterns-go/learn/lecture/17133984#content)
   - [Flyweight](https://refactoring.guru/design-patterns/flyweight), ie. general maps
 
-### Takeaway: Summary of GO Modules, Vendors
+## Go Modules Training
 
 - Go Modules are the way to GO
+  - [aukgit/go-module-package-testing: Go modules training practice from youtube](https://github.com/aukgit/go-module-package-testing)
   - [vgo - Accessing local packages within a go module (go 1.11) - Stack Overflow](https://stackoverflow.com/questions/52026284/accessing-local-packages-within-a-go-module-go-1-11/55347424#55347424)
 - Don't use vendors (because it requires sync, everytime new-packages is added)
   - Becareful with vendors and go-modules. Specially go vendors, replaces everything in vendor folder of the project on initial run.
@@ -66,6 +67,15 @@ require (
 ```
 
 - Use the package reference as `localPackage/IndifierName` -> `localPackage.call()`
+
+### Modules initialize commands
+
+```bash
+go mod init github.com/YourName/YourModuleName
+go get new-package
+go get go.uber.org/zap
+go mod tidy
+```
 
 ## Contributors
 
