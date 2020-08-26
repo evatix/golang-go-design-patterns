@@ -2,6 +2,10 @@
 
 Design patterns in golang
 
+## Explore Instruction
+
+## Make file labels to run
+
 ## Design Patterns Categories
 
 ![Design Pattern Categoeis](images/26851aa11fee477cf23f41d66883b588dc7f563d6bef48f674bc61ae7f50aeb2.png)  
