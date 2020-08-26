@@ -37,7 +37,7 @@ Important or commonly used patterns are marked with astrek(*).
   - [Facade](https://refactoring.guru/design-patterns/facade) | [Facade | Udemy](https://www.udemy.com/course/design-patterns-go/learn/lecture/17252788#content)
      - Repository (eg. [Repository](https://stackoverflow.com/questions/23213543/what-type-is-repository-pattern-in))
   - [Proxy](https://refactoring.guru/design-patterns/proxy) | [Proxy | Udemy](https://www.udemy.com/course/design-patterns-go/learn/lecture/17262546#content)
-  - *[Adapter](https://refactoring.guru/design-patterns/adapter) | [Adapter Udemy (Not Good)](https://www.udemy.com/course/design-patterns-go/learn/lecture/17133984#content)
+  - *[Adapter](https://refactoring.guru/design-patterns/adapter) | [Adapter Udemy](https://www.udemy.com/course/design-patterns-go/learn/lecture/17133984#content)
   - [Flyweight](https://refactoring.guru/design-patterns/flyweight), ie. general maps
 
 ## Contributors
