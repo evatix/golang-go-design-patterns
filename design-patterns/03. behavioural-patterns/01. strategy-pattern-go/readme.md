@@ -9,6 +9,8 @@
 ## Reference Links
 
 - [Object-Oriented-Programming-with-C-Sharp/PreviousVideo Coding/StrategyPattern/StrategyPattern at master · aukgit/Object-Oriented-Programming-with-C-Sharp](https://github.com/aukgit/Object-Oriented-Programming-with-C-Sharp/tree/master/PreviousVideo%20Coding/StrategyPattern/StrategyPattern)
+- [Naming convention for interfaces in Go](https://golang.org/doc/effective_go.html#interface-names)
+- [Interface naming convention Golang | Stack Overflow](https://stackoverflow.com/questions/38842457/interface-naming-convention-golang)
 
 ## Diagrams
 
