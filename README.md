@@ -8,8 +8,6 @@ Design patterns in golang
 
 ## Design Patterns Categories
 
-![Design Pattern Categoeis](images/26851aa11fee477cf23f41d66883b588dc7f563d6bef48f674bc61ae7f50aeb2.png)  
-
 [Reference](https://github.com/schleary/designPatterns/blob/master/Section%201%20-%20Intro/Design-Patterns-Introduction.pdf)
 
 - [Creational Patterns](https://bit.ly/32sgRSg)
@@ -41,3 +39,7 @@ Important or commonly used patterns are marked with astrek(*).
   - [Proxy](https://refactoring.guru/design-patterns/proxy) | [Proxy | Udemy](https://www.udemy.com/course/design-patterns-go/learn/lecture/17262546#content)
   - *[Adapter](https://refactoring.guru/design-patterns/adapter) | [Adapter Udemy (Not Good)](https://www.udemy.com/course/design-patterns-go/learn/lecture/17133984#content)
   - [Flyweight](https://refactoring.guru/design-patterns/flyweight), ie. general maps
+
+## Contributors
+
+- [Md. Alim Ul Karim](https://github.com/aukgit) | [Md. Alim Ul Karim Linkedin](https://bd.linkedin.com/in/alimkarim)
