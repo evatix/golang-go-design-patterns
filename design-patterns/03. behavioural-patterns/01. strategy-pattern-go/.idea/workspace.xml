@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,17 +23,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="502b827f-4986-4ad1-ad03-7eeca79f204f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internals/implementations/SpeakBehaviour.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/bird.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/chicken.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/constants/constants.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/implementations/NoSpeakBehaviour.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/implementations/SwimBehaviour.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/interfaces/BaseDisplayer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/interfaces/Displayer.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01. strategy-pattern.go" beforeDir="false" afterPath="$PROJECT_DIR$/01. strategy-pattern.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/implementations/FlyBehaviour.go" beforeDir="false" afterPath="$PROJECT_DIR$/internals/implementations/FlyBehaviour.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/implementations/NoFlyBehaviour.go" beforeDir="false" afterPath="$PROJECT_DIR$/internals/implementations/NoFlyBehaviour.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/implementations/SpeakBehaviour.go" beforeDir="false" afterPath="$PROJECT_DIR$/internals/implementations/SpeakBehaviour.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/interfaces/Flyer.go" beforeDir="false" afterPath="$PROJECT_DIR$/internals/interfaces/Flyer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/interfaces/Speaker.go" beforeDir="false" afterPath="$PROJECT_DIR$/internals/interfaces/Speaker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/interfaces/Swimmer.go" beforeDir="false" afterPath="$PROJECT_DIR$/internals/interfaces/Swimmer.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internals/strategy-internal.go" beforeDir="false" afterPath="$PROJECT_DIR$/internals/strategy-internal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
@@ -46,16 +68,28 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/internals/implementations" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/internals" />
+    <property name="settings.editor.selected.configurable" value="go" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\others-git\golang-go-design-patterns\design-patterns\03. behavioural-patterns\01. strategy-pattern-go\internals\constants" />
+    </key>
+    <key name="GoMoveDeclarationDialog.RECENT_KEY">
+      <recent name="$PROJECT_DIR$/internals/interfaces" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\others-git\golang-go-design-patterns\design-patterns\03. behavioural-patterns\01. strategy-pattern-go\internals" />
+      <recent name="D:\others-git\golang-go-design-patterns\design-patterns\03. behavioural-patterns\01. strategy-pattern-go\internals\interfaces" />
       <recent name="D:\others-git\golang-go-design-patterns\design-patterns\03. behavioural-patterns\01. strategy-pattern-go\internals\implementations" />
     </key>
   </component>
@@ -83,6 +117,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -95,17 +130,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="652" y="273" key="#Go_Modules/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598467691040" />
-    <state x="606" y="284" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1598466710423">
+    <state x="606" y="284" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1598512042277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="606" y="284" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598466710423" />
-    <state x="671" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1598469533805">
+    <state x="606" y="284" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598512042277" />
+    <state x="671" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1598506009241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="671" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598469533805" />
-    <state x="278" y="0" key="SettingsEditor" timestamp="1598466730889">
+    <state x="671" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598506009241" />
+    <state x="712" y="114" key="FileChooserDialogImpl" timestamp="1598512034355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="278" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598466730889" />
+    <state x="712" y="114" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598512034355" />
+    <state x="265" y="0" key="SettingsEditor" timestamp="1598517803708">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="265" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598517803708" />
+    <state x="625" y="308" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1598507758113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="625" y="308" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598507758113" />
+    <state x="315" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598512025080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="315" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598512025080" />
+    <state x="453" y="-2" width="1177" height="1470" key="search.everywhere.popup" timestamp="1598520861599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598512350575" />
+    <state x="453" y="-2" width="1177" height="1470" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598520861599" />
   </component>
 </project>

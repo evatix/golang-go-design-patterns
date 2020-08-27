@@ -1,5 +1,5 @@
 package strategyInterfaces
 
 type Swimmer interface {
-	Swim()
+	Swim() string
 }

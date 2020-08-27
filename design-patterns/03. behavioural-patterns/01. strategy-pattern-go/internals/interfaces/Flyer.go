@@ -1,5 +1,5 @@
 package strategyInterfaces
 
 type Flyer interface {
-	Fly()
+	Fly() string
 }

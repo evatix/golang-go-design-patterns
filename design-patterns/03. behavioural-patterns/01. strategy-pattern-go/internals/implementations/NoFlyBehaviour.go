@@ -1,11 +1,7 @@
-package strategyImplementations
-
-import (
-	"fmt"
-)
+package strategyimplementations
 
 type NoFlyBehaviour struct{}
 
-func (nf *NoFlyBehaviour) Fly() {
-	fmt.Println("No Flying")
+func (_ NoFlyBehaviour) Fly() string {
+	return "No Flying"
 }

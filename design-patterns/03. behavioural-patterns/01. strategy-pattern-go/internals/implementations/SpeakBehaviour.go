@@ -1,11 +1,7 @@
-package strategyImplementations
-
-import (
-	"fmt"
-)
+package strategyimplementations
 
 type SpeakBehaviour struct{}
 
-func (nf *SpeakBehaviour) Speak() {
-	fmt.Println("Speaking Default.")
+func (_ SpeakBehaviour) Speak() string {
+	return "Speaking Default."
 }
