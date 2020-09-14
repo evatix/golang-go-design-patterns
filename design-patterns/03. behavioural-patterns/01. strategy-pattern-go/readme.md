@@ -18,6 +18,7 @@
     - [What is the most portable/cross-platform way to represent a newline in go/golang? - Stack Overflow](https://stackoverflow.com/questions/14493867/what-is-the-most-portable-cross-platform-way-to-represent-a-newline-in-go-golang)
     - [go - All possible GOOS value? - Stack Overflow](https://stackoverflow.com/questions/20728767/all-possible-goos-value)
     - [OS Possibilities](https://bit.ly/34EaYV2)
+    - [Golang Detect Specific OS - Stack Overflow](https://stackoverflow.com/questions/42386788/how-can-i-detect-linux-distribution-within-golang-program)
     - [Go (Golang) GOOS and GOARCH](https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63)
 - Naming conventions
     - [constants - Go naming conventions for const - Stack Overflow](https://stackoverflow.com/questions/22688906/go-naming-conventions-for-const)
@@ -31,7 +32,7 @@
 3. Where we are running from the go code, we must have a main package
 4. We cannot have same name package twice
 5. We cannot have multiple main packages
-6. Each package can have multiple go file and it doesn't have any other restriction
+6. Each package can have multiple go file, and it doesn't have any other restriction
 
 ## Diagrams
 

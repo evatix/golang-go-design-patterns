@@ -77,6 +77,15 @@ go get go.uber.org/zap
 go mod tidy
 ```
 
+## Install golang in Ubuntu
+
+[Ubuntu · golang/go Wiki](https://github.com/golang/go/wiki/Ubuntu)
+
+`sudo add-apt-repository ppa:gophers/archive`
+`sudo add-apt-repository ppa:longsleep/golang-backports`
+`sudo apt update`
+`sudo apt install golang-go` -- latest will be installed
+
 ## Contributors
 
 - [Md. Alim Ul Karim](https://github.com/aukgit) | [Md. Alim Ul Karim Linkedin](https://bd.linkedin.com/in/alimkarim)
