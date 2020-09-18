@@ -5,9 +5,10 @@ import "strings"
 
 func IndexOf(stringArray []*string, findingString string, stringCase StringCase) int {
 	if(stringArray == nil || len(stringArray) == 0){
-
+		return -1
 	}
 
+	return
 }
 
 func IsExists(s, findingString string, stringCase StringCase) bool {
